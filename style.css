@@ -1,0 +1,90 @@
+
+/* Apply styles to the body */
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #FFD700; /* Change the background color to a light orange */
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header with an orange background */
+h1 {
+    text-align: center;
+    background-color: #FFA500; /* Use orange as the background color */
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Style the main content */
+form {
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="number"],
+select {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Style the Calculate BMR button with a box shadow */
+input[type="submit"] {
+    background-color: #FF6347; /* Use coral (orange shade) as the button background color */
+    color: #fff; /* Text color */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+    box-shadow: 0 10px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover effect */
+input[type="submit"]:hover {
+    background-color: #FF4500; /* Use a darker shade of orange on hover */
+}
+
+/* Style the output section with a white background and orange text */
+#output {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#output h2 {
+    font-size: 18px;
+}
+
+#display {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FF6347; /* Use coral (orange shade) for text color */
+}
+
